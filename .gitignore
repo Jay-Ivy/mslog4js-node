@@ -1,5 +1,16 @@
 # Logs
+.settings
+.project
+.classpath
+.myeclipse
+.mymetadata
+
 logs
+.git
+.idea
+*.iml
+*.ipr
+*.iws
 *.log
 npm-debug.log*
 yarn-debug.log*
