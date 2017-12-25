@@ -8,7 +8,7 @@ var json = [[{password: '123', 'address': '重庆市九龙坡区手机看看'}, 
     datas: [{password: '123', 'address': '重庆市九龙坡区手机看看'}, {password: '123', 'address': '重庆市九龙坡区手机看看'}]
 }]];
 console.log(JSON.stringify(mask.encrypt(json)));
-console.log(json);
+console.log(JSON.stringify(json));
 var json2 = {
     name: '张三',
     password: '123',
@@ -17,4 +17,4 @@ var json2 = {
     datas: [[{password: '123', 'address': '重庆市九龙坡区手机看看'}, {password: '123', 'address': '重庆市九龙坡区手机看看'}]]
 };
 console.log(JSON.stringify(mask.encrypt(json2)));
-console.log(json2);
+console.log(JSON.stringify(json2));
