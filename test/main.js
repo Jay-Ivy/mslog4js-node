@@ -44,7 +44,7 @@ var logPath = '../logs',
 //exports.use = function (app) {
 //    app.use(log4js.connectLogger(logger, {level: 'info', format: ':remote-addr - - ":method :url HTTP/:http-version" :status :response-timems', mask: logMask}));
 //};
-var logger = log4js.use({use: function() {}}, {
+var logger = log4js.use(null, {
     port: 8888,
     path: logPath,
     type: logType,
